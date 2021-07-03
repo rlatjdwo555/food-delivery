@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: username/app:latest
+          image: ghcr.io/rlatjdwo555/food-delivery:latest
           ports:
             - containerPort: 8080
           readinessProbe:
